@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "dog_network",
+            "database": "${workspaceFolder:fastapi-aws}/dog_network.db"
+        }
+    ]
+}
